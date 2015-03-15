@@ -55,6 +55,7 @@ public class Person {
 	
 	public String ClassName = this.getClass().getSimpleName();
 	
+	@Override
 	public String toString(){
 		return (this.name + " is a " + ClassName);
 	}

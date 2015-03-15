@@ -44,6 +44,7 @@ public class Faculty extends Employee {
 		return rank;
 	}
 	
+	@Override
 	public String toString(){
 		return (this.name + " is a " + ClassName);
 	}

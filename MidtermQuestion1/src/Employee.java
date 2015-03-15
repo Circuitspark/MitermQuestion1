@@ -52,6 +52,8 @@ public class Employee extends Person {
 		return dateHired;
 	}
 	
+	
+	@Override
 	public String toString(){
 		return (this.name + " is a " + ClassName);
 	}

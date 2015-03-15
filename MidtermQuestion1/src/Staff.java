@@ -31,6 +31,7 @@ public class Staff extends Employee {
 		return staffTitle;
 	}
 	
+	@Override
 	public String toString(){
 		return (this.name + " is a " + ClassName);
 	}

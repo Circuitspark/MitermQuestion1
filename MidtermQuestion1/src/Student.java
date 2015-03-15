@@ -31,6 +31,7 @@ public class Student extends Person {
 		return gradeyear;
 	}
 	
+	@Override
 	public String toString(){
 		return (this.name + " is a " + ClassName);
 	}
